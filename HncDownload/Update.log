@@ -1,0 +1,27 @@
+[Done]
+0201_142046.5312=(S)_DEBUG: Entering UpdatePage.Thread_UpdateInit()//OK
+0201_142046.5466=(S)_DEBUG: Process UpdatePage.Thread_UpdateInit() IsFirstExecute = false//OK
+0201_142046.5466_0=(S)_DEBUG: Entering UpdatePage.RunTypeInit()//OK
+0201_142046.5466_1=(S)_Window_Loaded(): abort: False abnormalStop: False  rollbackstop : False download_background : False //OK
+0201_142046.5466_2=(S)_DEBUG: Process UpdatePage.RunTypeInit() normal//OK
+0201_142046.5466_3=(S)_DEBUG: Leaving UpdatePage.RunTypeInit()//OK
+0201_142046.5466_4=(S)_DEBUG: Process UpdatePage.Thread_UpdateInit() m_runType = normal//OK
+0201_142046.5466_5=(S)_DEBUG: Entering UpdatePage.IsLate()//OK
+0201_142046.5623=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, projectLocal == R26, deltaLocal == 0 : 
+0201_142046.8286=MakeDataRequestURL_Key_Version_Auth cdnPath == http://cdn.hancom.com/update/HncUtils_NEO2/R26, project == R26, delta == 0, auth_response == 1, errCode == 0 : 
+0201_142046.8286_0=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, cdnPath == http://cdn.hancom.com/update/HncUtils_NEO2/R26 : 
+0201_142046.8286_1=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, projectServer == R26, deltaServer == 0 : 
+0201_142046.8286_2=(S)_DEBUG: in CoreCommon.IsLatestProduct(). retval of protocol.GetServerProductUrl_Key_Version() => OK//OK
+0201_142046.8440=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, product is latest : 
+0201_142046.8440_0=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, projectLocal == R40, deltaLocal == 0 : 
+0201_142047.1257=MakeDataRequestURL_Key_Version_Auth cdnPath == http://cdn.hancom.com/update/HOffice_NEO2/R40, project == R40, delta == 0, auth_response == 1, errCode == 0 : 
+0201_142047.1257_0=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, cdnPath == http://cdn.hancom.com/update/HOffice_NEO2/R40 : 
+0201_142047.1257_1=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, projectServer == R40, deltaServer == 0 : 
+0201_142047.1257_2=(S)_DEBUG: in CoreCommon.IsLatestProduct(). retval of protocol.GetServerProductUrl_Key_Version() => OK//OK
+0201_142047.1411=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, product is latest : 
+0201_142047.1411_0=(S)_DEBUG: Process UpdatePage.IsLate()//Success_No_Update
+0201_142047.1411_1=(S)_DEBUG: Leaving UpdatePage.IsLate()//OK
+0201_142047.1411_2=(S)_DEBUG: Leaving UpdatePage.Thread_UpdateInit()//OK
+[LastLog]
+Action=Done
+Key=0201_142047.1411_2
